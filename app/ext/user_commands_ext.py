@@ -31,7 +31,7 @@ class UserCommands(interactions.Extension):
         opt_type=interactions.OptionType.USER,
     )
     async def who(self, inter: interactions.SlashContext, target_user: interactions.User):
-        await inter.send(f"https://vault.nuenthel.com\n{target_user.mention} 👆 right there")
+        await inter.send(f"https://janus.nuenthel.com\n{target_user.mention} 👆 right there")
 
 # ======================================================================================================================
 # FUNCTIONS
